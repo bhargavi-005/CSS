@@ -1,0 +1,10 @@
+.linear-gradient {
+    background: linear-gradient(to left, red, blue); /* you can also use 270deg */
+   }
+    .diagonal-linear-gradient {
+    background: linear-gradient(to left top, red, yellow 10%);}   
+
+
+.radial{
+    background: radial-gradient(black,red);
+}

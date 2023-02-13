@@ -1,0 +1,4 @@
+body{
+    /* background: border-box red; */
+    background:  #000000 u url("/airplane.jpg")top left / 600px auto no-repeat;
+}

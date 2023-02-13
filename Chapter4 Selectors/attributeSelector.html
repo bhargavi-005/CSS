@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+</head>
+<body>
+    <style>
+        div[data-color] {
+        color: red;}
+        div[data-background]{
+            color: blue;
+        }
+        [class*="foo"] {
+        color: rgb(172, 51, 51);
+}
+
+
+    </style>
+    <div data-color="red">This will be red</div>
+    <div data-color="red">This will be red</div>
+    <div data-background="red">This will NOT be red</div>
+
+    <div class="foo-123">This will be red</div>
+    <div class="foo123">This will be red</div>
+    <div class="bar123foo">This will be red</div>
+    <div class="barfooo123">This will be red</div>
+    <div class="barfo0">This will NOT be red</div>
+
+</body>
+</html>

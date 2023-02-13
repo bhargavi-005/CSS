@@ -1,0 +1,10 @@
+.example {
+    width: 300px;
+    border: 20px solid black;
+    padding: 50px;
+    background: url(https://static.pexels.com/photos/6440/magazines-desk-work-workspace-medium.jpg);
+    background-repeat: no-repeat;
+   }
+   .example1 {}
+   .example2 { background-origin: border-box; }
+   .example3 { background-origin: content-box; }

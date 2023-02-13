@@ -1,0 +1,15 @@
+.ab{
+    background-image: url(/airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    }
+    div.contain {
+        background-size: contain;
+       }
+       /* div.cover {
+        background-size: cover;
+       }    */

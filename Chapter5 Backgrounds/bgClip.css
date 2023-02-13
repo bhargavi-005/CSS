@@ -1,0 +1,10 @@
+.example {
+    width: 300px;
+    border: 20px solid black;
+    padding: 70px;
+    background: url(/airplane.jpg);
+    background-repeat: no-repeat;
+   }
+   .example1 {}
+   .example2 { background-origin: border-box; }
+   .example3 { background-origin: content-box; }
