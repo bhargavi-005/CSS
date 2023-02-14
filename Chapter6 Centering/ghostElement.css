@@ -1,0 +1,19 @@
+.blue{
+    text-align: center;
+    white-space: nowrap;
+    background-color: aqua;
+}
+.blue:before{
+    content: '';
+    display: inline-block;
+    height: 200%;
+    vertical-align: middle;
+    margin-right: -1em;
+    /* background-color: aliceblue; */
+}
+.red{
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    white-space: normal;
+}

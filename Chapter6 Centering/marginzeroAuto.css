@@ -1,0 +1,16 @@
+.blue{
+    width: 100%;
+    height: 100px;
+    padding-bottom: 40px;
+}
+#red {
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #f60707;
+   }
+
+#pink{
+    width: 200px;
+    margin: 0 auto;
+}   

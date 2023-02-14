@@ -1,0 +1,20 @@
+.content * {
+    box-sizing: border-box;
+   }
+   .content .position-container {
+    display: table;
+   }
+   .content .detail {
+    display: table-cell;
+    vertical-align: middle;
+    width: 10%;
+    padding: 30px;
+    font-size: 17px;
+    text-align: center;
+   }
+   .content .thumb {
+    width: 100%;
+   }
+   .content .thumb img {
+    width: 100%;
+   }

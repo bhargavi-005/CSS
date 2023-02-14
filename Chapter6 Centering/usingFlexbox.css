@@ -1,0 +1,24 @@
+/* html,body,.as{
+    height: 50%;
+}
+.as{
+    display: flex;
+    justify-content: center;
+
+
+}
+img{
+    align-items: center;
+
+    
+
+} */
+html, body {
+    height:50px;
+   }
+   body {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; /* vertical center */
+   }
+   

@@ -1,0 +1,7 @@
+.blue {
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    background: blue;
+    top: calc(50% - 50px / 2); 
+    left: calc(50% - 50px / 2); }

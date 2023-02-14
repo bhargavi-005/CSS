@@ -1,0 +1,20 @@
+.blue{
+    height: 50px;
+    width: 80px;
+    border: 1px solid rgb(94, 94, 7);
+    text-align: center;
+}
+.blue:before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 5px;
+
+}
+img{
+    width: 70px;
+    height: 50px;
+    vertical-align: middle;
+    
+}
