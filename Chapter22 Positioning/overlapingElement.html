@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <style>
+            div{
+                height: 100px;
+                width: 100px;
+                /* position: relative; */
+                /* position: absolute;
+                position: fixed; */
+                position: static;
+            }
+            div.one{
+                z-index: 1;
+                left: 0px;
+                top: 0px;
+                background-color: black;
+            }
+            div.two{
+                z-index: 2;
+                left: 100px;
+                top: 100px;
+                background-color: rgb(245, 9, 9);
+
+            }
+            div.three{
+                z-index: 1;
+                left: 20px;
+                top: 200px;
+                background-color: rgb(152, 74, 74);}
+            
+        </style>
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </body>
+</html>
